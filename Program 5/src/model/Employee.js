@@ -1,8 +1,6 @@
 class Employee {
   constructor(ename, empid, edate,edepartment, status) {
-    this.ename = ename;
-    this.empid = empid;
-    this.edate = edate;
+   
     this.edepartment=edepartment;
     this.status = status[0].checked?1:0;
     if(this.status)
